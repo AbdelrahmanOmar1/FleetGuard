@@ -1,0 +1,35 @@
+{
+  "name": "fleetguard",
+  "version": "1.0.0",
+  "description": "A comprehensive Fleet Management System for vehicle tracking, GPS integration, route monitoring, fuel consumption analysis, maintenance management, and intelligent alerts, with future AI-powered detection of suspicious activities and potential fuel theft.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "bcrypt": "^6.0.0",
+    "chalk": "^6.0.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "pg": "^8.23.1",
+    "socket.io": "^4.8.4",
+    "xlsx": "^0.18.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.23.1",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.10.1"
+  }
+}
